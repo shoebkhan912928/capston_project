@@ -1,0 +1,1415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All product</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <!-- <script rel="text/javacsript" src="code.js"></script> -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        /* Customize the card styles here */
+        .card {
+            border: none;
+            height: 100%;
+           
+            /* width: 100%; */
+            /* Remove card border */
+        }
+
+        /* Customize the card header background color */
+        
+
+        /* Customize the card body background color */
+        .card-body {
+            background-color: #F8F9FA;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            /* height: 100%; */
+            /* Replace with your theme color */
+        }
+
+        /* Style for the common header */
+        .common-header {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .common-header {
+            font-size: 400%;
+            /* text-shadow: 2px 2px 10px blue, 2px 2px 6px red , 2px 2px 5px green ; */
+            /* text-shadow: 0px 0px 13px #f00 , 0px 0px 15px #00f; */
+            /* text-shadow: 1px 1px 3px black , 0px 0px 25px blue, 0px 0px 5px brown; */
+            text-shadow: 2px 2px 10px red;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        
+        
+
+    </style>
+</head>
+
+<body>
+    
+    <div id="header_placeholder"></div>
+    
+                
+    <!-- <div id="header_placeholder" ></div> -->
+
+    <div class="container-fluid mt-5">
+        <!-- Common Header -->
+        <div class="common-header">
+            Women All Product
+        </div>
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+            <!-- Carousel Indicators -->
+            <!-- <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol> -->
+
+            <!-- Carousel Slides -->
+            <div class="carousel-inner">
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <div class="row">
+                        <!-- Card 1 (Large screens) -->
+                        <div class="col-lg-2 col-md-4 d-none d-md-block">
+                            <div class="card h-100 d-flex">
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1583686543381-2608547b3963?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODB8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Red Clothea</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 2 (Large screens) -->
+                        <div class="col-lg-2 col-md-4 d-none d-md-block">
+                            <div class="card h-100 d-flex">
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1603217039640-afce9bb7d785?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzV8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Mahdi bafanda</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 d-none d-md-block">
+                            <div class="card h-100 d-flex">
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1601762603339-fd61e28b698a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fGZhc2hpb258ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60">
+
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Haryo Setyadi</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 d-none d-md-block">
+                            <div class="card h-100 d-flex">
+                                <img class="card-img-top"
+                                    src="https://media.istockphoto.com/id/1186129334/photo/pretty-indian-young-woman.jpg?s=612x612&w=0&k=20&c=KFQoX4wtIDIATARqo1eLwU62NzY544H4w_psennAYmo=">
+
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Phil Monte</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 d-none d-md-block">
+                            <div class="card h-100 d-flex">
+                                <img class="card-img-top "
+                                    src="https://media.istockphoto.com/id/1442269284/photo/woman-carrying-groceries-in-shopping-basket.jpg?s=612x612&w=0&k=20&c=K60fDSFIY8F8ZAw300ZTzbErS2vpRtssExjHuQs0uuE=">
+
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Ary Mligan</h5>
+                                    <p class="card-text">Lorem ipsum, sit amet consectetur adipisicing elit. Deserunt
+                                        iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 d-none d-md-block">
+                            <div class="card h-100 d-flex">
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1513094735237-8f2714d57c13?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d29tZW4lMjBmYXNoaW9ufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60">
+
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Grabowska</h5>
+                                    <p class="card-text"> Lorem ipsum dolor sit this is a bid color amet consectetur
+                                        adipisicing elit. Numquam itaque quae consectetur fugiat.Lorem ipsum, dolor sit
+                                        amet consectetur adipisicing elit. Deserunt iure doloribus consequatur
+                                        architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Repeat similar card structures for Card 3, 4, 5, and 6 for large screens -->
+
+
+
+                        <!-- Repeat similar card structures for Card 3, 4 for medium screens -->
+
+                        <!-- Card 1 (Small screens) -->
+                        <div class="col-12 d-lg-none d-md-none">
+                            <div class="card h-100 d-flex">
+
+                                <img class="card-img-top"
+                                    src="https://media.istockphoto.com/id/628092942/photo/check-out-counter-in-the-bakery.jpg?s=612x612&w=0&k=20&c=yyPmEjT9VjGVXZZImjO1qj-uO2BNA0pv7vgxnHaKu2Q=">
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Mahil Balande</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 d-lg-none d-md-none">
+                            <div class="card h-100 d-flex">
+
+                                <img class="card-img-top"
+                                    src="https://media.istockphoto.com/id/1477901843/photo/portrait-of-happy-cheerful-curly-hair-woman-pointing-finger-copyspace-isolated-on-white.jpg?s=612x612&w=0&k=20&c=bRky4PFTTdMMtM2Rc1rTBzjgQnLZcvba86yuLB6XCeg=">
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Ary miligan</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 d-lg-none d-md-none">
+                            <div class="card h-100 d-flex">
+
+                                <img class="card-img-top"
+                                    src="https://media.istockphoto.com/id/1169378197/photo/stylish-shopaholic-with-purchases.jpg?s=612x612&w=0&k=20&c=RGwdnF0wrWV8NNBawXAbzAHUe8sMBpLsEvIICLR9dM4=">
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Ary miligan</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 d-lg-none d-md-none">
+                            <div class="card h-100 d-flex">
+
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1554412933-514a83d2f3c8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d29tZW4lMjBmYXNoaW9ufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60">
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Ary miligan</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Repeat similar card structures for Card 2 for small screens -->
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <div class="row">
+                        <!-- Card 1 (Large screens) -->
+                        <div class="col-lg-2 col-md-4 d-none d-md-block">
+                            <div class="card h-100 d-flex">
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1552874869-5c39ec9288dc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8d29tZW4lMjBmYXNoaW9ufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60">
+
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Chrick Meron</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 2 (Large screens) -->
+                        <div class="col-lg-2 col-md-4 d-none d-md-block">
+                            <div class="card h-100 d-flex">
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1621184455862-c163dfb30e0f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8d29tZW4lMjBmYXNoaW9ufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60">
+
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Cris Regen</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 d-none d-md-block">
+                            <div class="card h-100 d-flex">
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1618244972963-dbee1a7edc95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d29tZW4lMjBmYXNoaW9ufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60">
+
+
+                                <div class="card-body">
+                                    <h5 class="card-title">sleeve shirt</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 d-none d-md-block">
+                            <div class="card h-100 d-flex">
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1617922001439-4a2e6562f328?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d29tZW4lMjBmYXNoaW9ufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60">
+
+
+                                <div class="card-body">
+                                    <h5 class="card-title">long sleev shirt</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 d-none d-md-block ">
+                            <div class="card h-100 d-flex">
+                                <img class="card-img-top "
+                                    src="https://plus.unsplash.com/premium_photo-1664299024123-1b7cd799c17f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+
+                                <div class="card-body">
+                                    <h5 class="card-title">long scurts</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 d-none d-md-block">
+                            <div class="card h-100 d-flex">
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1598554793905-075f7b355cd9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Brown Wodden</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Repeat similar card structures for Card 3, 4, 5, and 6 for large screens -->
+
+
+                        <!-- Card 1 (Small screens) -->
+                        <div class="col-12 d-lg-none d-md-none">
+                            <div class="card h-100 d-flex">
+
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1618333452884-5c8d211ed2ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8d29tZW4lMjBmYXNoaW9ufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60">
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Black shirt</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 d-lg-none d-md-none">
+                            <div class="card h-100 d-flex">
+
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1589212987511-4a924cb9d8ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Black Suit</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 d-lg-none d-md-none">
+                            <div class="card h-100 d-flex">
+
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1519235106638-30cc49b5dbc5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Black Suit</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 d-lg-none d-md-none">
+                            <div class="card h-100 d-flex">
+
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1624309845812-a7c7e12259f0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Black Suit</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Repeat similar card structures for Card 2 for small screens -->
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <!-- Card 1 (Large screens) -->
+                        <div class="col-lg-2 col-md-4 d-none d-md-block">
+                            <div class="card h-100 d-flex">
+                                <img class="card-img-top"
+                                    src="https://plus.unsplash.com/premium_photo-1661597265308-934005c78491?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Brown Scarf</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 2 (Large screens) -->
+                        <div class="col-lg-2 col-md-4 d-none d-md-block">
+                            <div class="card h-100 d-flex">
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1590330297626-d7aff25a0431?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Brown scert</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 d-none d-md-block">
+                            <div class="card h-100 d-flex">
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1603217192097-13c306522271?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Black pants</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 d-none d-md-block">
+                            <div class="card h-100 d-flex">
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1602303894456-398ce544d90b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+
+                                <div class="card-body">
+                                    <h5 class="card-title">White crew shirt</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 d-none d-md-block">
+                            <div class="card h-100 d-flex">
+                                <img class="card-img-top"
+                                    src="https://plus.unsplash.com/premium_photo-1683140906006-30733c7d002d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Black blazer</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 d-none d-md-block">
+                            <div class="card h-100 d-flex">
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1618068291962-bb16bfca7f0f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+
+                                <div class="card-body">
+                                    <h5 class="card-title">White t_shirt</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Repeat similar card structures for Card 3, 4, 5, and 6 for large screens -->
+
+
+                        <!-- Card 1 (Small screens) -->
+                        <div class="col-12 d-lg-none d-md-none">
+                            <div class="card h-100 d-flex">
+
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1584998316204-3b1e3b1895ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Nec t-shirt</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 d-lg-none d-md-none">
+                            <div class="card h-100 d-flex">
+
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1524255684952-d7185b509571?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Skirt</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 d-lg-none d-md-none">
+                            <div class="card h-100 d-flex">
+
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1617059322001-a61ce9551e08?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Blazer</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 d-lg-none d-md-none">
+                            <div class="card h-100 d-flex">
+
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1616313253719-c46514cddee1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+                                <div class="card-body">
+                                    <h5 class="card-title"> danim jacket</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Repeat similar card structures for Card 2 for small screens -->
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <!-- Repeat similar card structures for Slide 2 -->
+
+                <!-- Slide 3 -->
+                <!-- Repeat similar card structures for Slide 3 -->
+            </div>
+
+            <!-- Carousel Controls -->
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <hr>
+    <br>
+    
+    <div class="container-fluid mt-5">
+        <!-- Common Header -->
+
+
+        <div id="myCarousels" class="carousel slide" data-ride="carousel" data-interval="false">
+            <!-- Carousel Indicators -->
+            <!-- <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol> -->
+
+            <!-- Carousel Slides -->
+            <div class="carousel-inner">
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <div class="row">
+                        <!-- Card 1 (Large screens) -->
+                        <div class="col-lg-2 col-md-4 d-none d-md-block">
+                            <div class="card h-100 d-flex">
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1590400516695-36708d3f964a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 2 (Large screens) -->
+                        <div class="col-lg-2 col-md-4 d-none d-md-block">
+                            <div class="card h-100 d-flex">
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1616847220575-31b062a4cd05?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Mahdi bafanda</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 d-none d-md-block">
+                            <div class="card h-100 d-flex">
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1626948683848-a20d8b769e3c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+
+                                <div class="card-body">
+                                    <h5 class="card-title">HAryo Setyadi</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 d-none d-md-block">
+                            <div class="card h-100 d-flex">
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1569830692854-08567c072602?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Phil Monte</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 d-none d-md-block">
+                            <div class="card h-100 d-flex">
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1495385794356-15371f348c31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Ary Mligan</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 d-none d-md-block">
+                            <div class="card h-100 d-flex">
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1618244965061-1d27b208d6e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Grabowska</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Repeat similar card structures for Card 3, 4, 5, and 6 for large screens -->
+
+
+
+                        <!-- Repeat similar card structures for Card 3, 4 for medium screens -->
+
+                        <!-- Card 1 (Small screens) -->
+                        <div class="col-12 d-lg-none d-md-none">
+                            <div class="card h-100 d-flex">
+
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1608912215571-61b7d5914b35?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzh8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Mahil Balande</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 d-lg-none d-md-none">
+                            <div class="card h-100 d-flex">
+
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1500336624523-d727130c3328?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Ary miligan</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 d-lg-none d-md-none">
+                            <div class="card h-100 d-flex">
+
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1585229593056-ddd606c911de?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Ary miligan</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 d-lg-none d-md-none">
+                            <div class="card h-100 d-flex">
+
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1582738509941-360b28c941ea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Ary miligan</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Repeat similar card structures for Card 2 for small screens -->
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <div class="row">
+                        <!-- Card 1 (Large screens) -->
+                        <div class="col-lg-2 col-md-4 d-none d-md-block">
+                            <div class="card h-100 d-flex">
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDR8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Chrick Meron</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 2 (Large screens) -->
+                        <div class="col-lg-2 col-md-4 d-none d-md-block">
+                            <div class="card h-100 d-flex">
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1550614000-4895a10e1bfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDJ8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Cris Regen</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 d-none d-md-block">
+                            <div class="card h-100 d-flex">
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1548611535-b3716767c3d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDh8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+
+                                <div class="card-body">
+                                    <h5 class="card-title">sleeve shirt</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 d-none d-md-block">
+                            <div class="card h-100 d-flex">
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1617059070087-d05ea39977dd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDd8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+
+                                <div class="card-body">
+                                    <h5 class="card-title">long sleev shirt</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 d-none d-md-block ">
+                            <div class="card h-100 d-flex">
+                                <img class="card-img-top "
+                                    src="https://plus.unsplash.com/premium_photo-1689371956254-1a8adca96b78?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTF8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+
+                                <div class="card-body">
+                                    <h5 class="card-title">long scurts</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 d-none d-md-block">
+                            <div class="card h-100 d-flex">
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1551977105-71d5b47c25b1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDl8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Brown Wodden</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Repeat similar card structures for Card 3, 4, 5, and 6 for large screens -->
+
+
+                        <!-- Card 1 (Small screens) -->
+                        <div class="col-12 d-lg-none d-md-none">
+                            <div class="card h-100 d-flex">
+
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1588117305388-c2631a279f82?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTB8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Black shirt</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 d-lg-none d-md-none">
+                            <div class="card h-100 d-flex">
+
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1618374645957-04e5cc73ec21?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTR8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Black Suit</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 d-lg-none d-md-none">
+                            <div class="card h-100 d-flex">
+
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1617059153946-97005c8b5dbb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTN8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Black Suit</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 d-lg-none d-md-none">
+                            <div class="card h-100 d-flex">
+
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1591344031119-530d76475190?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjB8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Black Suit</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Repeat similar card structures for Card 2 for small screens -->
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <!-- Card 1 (Large screens) -->
+                        <div class="col-lg-2 col-md-4 d-none d-md-block">
+                            <div class="card h-100 d-flex">
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1618374889392-7bd8f8aa0dde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTl8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Brown Scarf</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 2 (Large screens) -->
+                        <div class="col-lg-2 col-md-4 d-none d-md-block">
+                            <div class="card h-100 d-flex">
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1450297756549-a553121ddff2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjV8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Brown scert</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 d-none d-md-block">
+                            <div class="card h-100 d-flex">
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1590852669429-d1cd8775ea59?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjN8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Black pants</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 d-none d-md-block">
+                            <div class="card h-100 d-flex">
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1617922355333-03067f99a53c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjR8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+
+                                <div class="card-body">
+                                    <h5 class="card-title">White crew shirt</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 d-none d-md-block">
+                            <div class="card h-100 d-flex">
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1588117260148-b47818741c74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njh8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Black blazer</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 d-none d-md-block">
+                            <div class="card h-100 d-flex">
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1552160753-117159821e01?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njd8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+
+                                <div class="card-body">
+                                    <h5 class="card-title">White t_shirt</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Repeat similar card structures for Card 3, 4, 5, and 6 for large screens -->
+
+
+                        <!-- Card 1 (Small screens) -->
+                        <div class="col-12 d-lg-none d-md-none">
+                            <div class="card h-100 d-flex">
+
+                                <img class="card-img-top"
+                                    src="https://plus.unsplash.com/premium_photo-1689371953420-b6981e43fa38?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjZ8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Nec t-shirt</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 d-lg-none d-md-none">
+                            <div class="card h-100 d-flex">
+
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1505846951821-e25bacf2eccd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzJ8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Skirt</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 d-lg-none d-md-none">
+                            <div class="card h-100 d-flex">
+
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1618375531912-867984bdfd87?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzB8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Blazer</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 d-lg-none d-md-none">
+                            <div class="card h-100 d-flex">
+
+                                <img class="card-img-top"
+                                    src="https://images.unsplash.com/photo-1591344031108-6896f4d636af?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njl8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+                                <div class="card-body">
+                                    <h5 class="card-title"> danim jacket</h5>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Deserunt iure doloribus consequatur architecto.</p>
+
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#addToCartModal1">
+                                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Repeat similar card structures for Card 2 for small screens -->
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <!-- Repeat similar card structures for Slide 2 -->
+
+                <!-- Slide 3 -->
+                <!-- Repeat similar card structures for Slide 3 -->
+            </div>
+
+            <!-- Carousel Controls -->
+            <a class="carousel-control-prev" href="#myCarousels" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousels" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="code.js"></script>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script> -->
+        <div id="footer_placeholder" class="mt-5"></div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script>
+            $(function () {
+                $("#header_placeholder").load("header.html");
+            });
+        </script>
+
+
+
+        <script>
+            $(function () {
+                $("#footer_placeholder").load("footer.html");
+            });
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
